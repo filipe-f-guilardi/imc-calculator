@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+        <title>IMC CALCULATOR</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>imc calculator</h1>
+            </header>
+            <main class="main">
+                <form action="">
+                    <div class="inputs">
+                        <label for="height">Height: </label>
+                        <input type="number" name="height" id="height-input">
+                    </div>
+                    <div class="inputs">
+                        <label for="weight">Weight: </label>
+                        <input type="number" name="weight" id="weight-input">
+                    </div>
+                    <input type="button" value="submit" id="submit">
+                </form>
+            </main>
+            <div class="description">
+                <h2 id="desc-weight"></h2>
+                <p id="desc"></p>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
